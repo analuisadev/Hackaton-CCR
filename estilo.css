@@ -1,7 +1,132 @@
-.menu {
-    padding:0px;
-    margin:0px;
-    background-color:#686868;
-    text-decoration: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+#menu {
+    list-style-type: none;
+    padding: 0;
+    background-color:#312F32;
+    text-align: right;
+    
+    
+}
+
+#menu li {
+    display: inline;
+    
+    
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    
+    
+}
+
+#menu li:last-child a{
+    float: right;
+    background-color: #992FAD;
+    transition:all 0.6s ease-out;
+    border-radius: 150px;
+    
+    
+    
+}
+
+#rodape {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding: 1%;
+    background-color: #312F32;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+
+}
+a:link{
+    color: white;
+    text-decoration:none;
+
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.login{
+    margin-top: 20px;
+    width: 320px;
+    height: 400px;
+    border: 2px solid rgb(114, 114, 114);
+    border-radius: 10px;
+    background-color:#312F32;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    
+}
+h1 {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.login p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+   
+}
+
+.login input [type="text"], input [type="password"]{
+border: none;
+border: 1px solid white;
+height: 40px;
+font-size: 16px;
+
+}
+
+.login input [type="submit"]{
+    border: none;
+    outline: none;
+    color: black;
+    transition: 0.2s all;
+}
+
+.login a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    line-height: 20px;
 }
 
