@@ -71,63 +71,67 @@ a:visited{
     text-decoration: none;
 }
 
-.login{
-    margin-top: 20px;
-    width: 320px;
-    height: 400px;
-    border: 2px solid rgb(114, 114, 114);
-    border-radius: 10px;
-    background-color:#312F32;
-    top: 50%;
-    left: 50%;
-    box-sizing: border-box;
-    
-}
-h1 {
-    margin: 0;
-    padding-top: 0;
-    padding-left: 0;
-    padding-bottom: 20px;
-    letter-spacing: 5px;
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .form {
+    position: relative;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-}
-
-.login p{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-}
-
-.login input{
+    box-shadow: 0 0 2px 0 black, 0 2px 2px 0 black;
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f3f3f3;
     width: 100%;
-    margin-bottom: 40px;
-    text-align: center;
-   
-}
-
-.login input [type="text"], input [type="password"]{
-border: none;
-border: 1px solid white;
-height: 40px;
-font-size: 16px;
-
-}
-
-.login input [type="submit"]{
     border: none;
-    outline: none;
-    color: black;
-    transition: 0.2s all;
-}
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    background: #992FAD;
+    width: 100%;
+    border: 0.5px solid black;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    transition: all 0.3 ease;
 
-.login a{
-    font-family: 'Roboto', sans-serif;
+  }
+  .form button:hover{
+    background: #000000;
+  }
+  .form button:active{
+    background: #000000;
+  }
+  .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #000000;
     text-decoration: none;
-    line-height: 20px;
-}
+  }
+  .form .register-form {
+    display: none;
+  }
+  .container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+  
+  }
 #home {
     width: 50%;
     height: 80%;
