@@ -148,6 +148,7 @@ h2{
     color: #6640B2;
     line-height: 60px;
     font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h3{
@@ -158,8 +159,9 @@ h3{
 
 p{
     line-height: 40px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 #image img{
@@ -185,4 +187,25 @@ p{
     font-size: 20px;
     
 }
+#sobre{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    padding-top: 5px;
+}
 
+#content{
+    justify-content: left;
+    float: left;
+    width: 60%;
+    height: 80%;
+    position: relative;
+    padding: 40px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#devs{
+    padding: 10px;
+    float: left;
+}
