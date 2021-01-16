@@ -19,14 +19,15 @@
     list-style-type: none;
     padding: 1%;
     background-color:#312F32;
-    text-align: right;
-    
+    text-align: right;  
     
 }
 
 #menu li {
-    display: inline;    
+
+    display: inline;  
 }
+
 
 #menu li a{
     color: white;
@@ -35,7 +36,6 @@
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    
     
 }
 
@@ -68,6 +68,7 @@ a:visited{
     color: white;
     text-decoration: none;
 }
+
 .login-icon{
   width: 80px;
   height: 80px;
@@ -75,6 +76,7 @@ a:visited{
   display: inline-block;
   transition:all 0.6s ease-out;
 }
+
 .login-page {
     width: 360px;
     padding: 8% 0 0;
@@ -164,6 +166,7 @@ p{
     line-height: 40px;
     font-size: 25px;
     text-align: justify;
+
 }
 
 #image img{
