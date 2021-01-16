@@ -17,27 +17,25 @@
 }
 #menu {
     list-style-type: none;
-    padding: 0;
+    padding: 1%;
     background-color:#312F32;
-    text-align: right;
-    
+    text-align: right;  
     
 }
 
 #menu li {
-    display: inline;
-    
-    
+
+    display: inline;  
 }
+
 
 #menu li a{
     color: white;
     text-decoration: none;
-    padding: 2%;
+    padding: 10px 10px 10px 10px;
     display: inline-block;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    
+    font-size: 15px;
     
 }
 
@@ -69,6 +67,14 @@ a:link{
 a:visited{
     color: white;
     text-decoration: none;
+}
+
+.login-icon{
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  display: inline-block;
+  transition:all 0.6s ease-out;
 }
 
 .login-page {
@@ -148,7 +154,6 @@ h2{
     color: #6640B2;
     line-height: 60px;
     font-size: 50px;
-    font-family: 'Josefin Sans', sans-serif;
 }
 
 h3{
@@ -159,9 +164,9 @@ h3{
 
 p{
     line-height: 40px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: justify;
-    font-family: "Josefin Sans", sans-serif;
+
 }
 
 #image img{
@@ -187,25 +192,4 @@ p{
     font-size: 20px;
     
 }
-#sobre{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
-    padding-top: 5px;
-}
 
-#content{
-    justify-content: left;
-    float: left;
-    width: 60%;
-    height: 80%;
-    position: relative;
-    padding: 40px;
-    padding-top: 50px;
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-#devs{
-    padding: 10px;
-    float: left;
-}
