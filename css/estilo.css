@@ -291,12 +291,12 @@ h1{
 .course > .text{
  float: right;
  margin-top: 100px;
- margin-right: 40px;
+ margin-right: 30px;
  color: #ffffff;
  font-weight: bold;
 }
 .course .text label{
- font-size: 22px;
+ font-size: 20px;
  font-family: Arial, Helvetica, sans-serif;
  font-style: normal;
 }
