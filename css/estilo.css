@@ -208,7 +208,24 @@ p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
 }
-
+.title-apoie-top{
+  height: 400px;
+  background-image: url('../images/8a777696-0880-4094-8429-d60cb7e2d1c5.png');
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+}
+.title-apoie-top > h1{
+  color: #ffffff;
+  font-size: 100px;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.title-apoie-top > label{
+  color: #ffffff;
+  font-size: 25px;
+  padding-top: 120px;
+}
 .title-course-top{
   height: 400px;
   background-image: url('../images/c1062d4f-bf97-4e81-a354-7a0d90306528.png');
@@ -220,7 +237,7 @@ p{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-.courses > h1{
+h1{
   font-size: 50px;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -266,6 +283,79 @@ p{
  font-size: 22px;
  font-family: Arial, Helvetica, sans-serif;
  font-style: normal;
+}
+.ranking{
+  height: 700px;
+  padding-top: 50px;
+  background-image: url('../images/e50b969f-bc0f-4146-a8eb-e7d3e7df4d33.png');
+}
+.top-10{
+  max-width: 70%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #b3b3b3;
+  border-radius: 30px 30px 30px 30px;
+  opacity: 70%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.top-10 > h1{
+  font-size: 80px;
+}
+.top-10 > label{
+  font-size: 22px;
+}
+
+.brinds{
+  margin-left: 230px;
+  margin-bottom: 50px;
+}
+
+.brind{
+  width: 300px;
+  background-color: #992FAD;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px 20px 20px 20px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
+}
+
+.brind > img{
+  width: 70px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  margin-right: 70px;
+}
+.contribua{
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+.nubank{
+  display: inline-block;
+  margin-left: 470px;
+  margin-right: 120px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mercado-pago{
+  display: inline-block;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nubank > img{
+  width: 250px;
+  margin-bottom: 20px;
+}
+.mercado-pago > img{
+  width: 250px;
+  margin-bottom: 20px;
 }
 
 #start {
