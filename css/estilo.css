@@ -193,3 +193,15 @@ p{
     
 }
 
+.redes img{
+  max-width: 70px;
+  max-height: 70px;
+  padding-top: 20px;
+}
+
+h5{
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
