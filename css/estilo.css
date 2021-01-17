@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 .logo {
     float: left;
     width: 60px;
@@ -170,12 +171,15 @@ p{
 }
 
 #image img{
-    max-width: 30%;
+    max-width: 60%;
     float: right;
-    margin-right: 100px;
-    margin-top: 70px;
+    margin-top: 12px;
     display: inline-block;
     transition:all 0.6s ease-in;
+}
+
+.information{
+   
 }
 
 #start {
