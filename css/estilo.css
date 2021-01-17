@@ -48,7 +48,6 @@
 }
 
 #rodape {
-    position: fixed;
     bottom:0;
     width:100%;
     padding: 1%;
@@ -174,13 +173,42 @@ p{
     max-width: 60%;
     float: right;
     margin-top: 12px;
+    margin-bottom: 50px;
     display: inline-block;
     transition:all 0.6s ease-in;
 }
 
 .information{
-   
+   background-color: #992FAD;
+   display: inline-block;
+   padding-bottom: 50px;
 }
+.information > img{
+  max-width: 30%;
+  float: left;
+  margin-left: 25px;
+  margin-top: 20px;
+  border-radius: 20%;
+}
+
+.information  .text{
+  float: right;
+  margin-top: 100px;
+  margin-right: 40px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.information .text label{
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.information .text h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
 
 #start {
     display: block;
