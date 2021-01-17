@@ -236,14 +236,17 @@ p{
   font-size: 100px;
   padding-top: 120px;
   padding-bottom: 50px;
+
 }
 .title-apoie-top > label{
   color: #ffffff;
   font-size: 25px;
   padding-top: 120px;
+
 }
 .title-course-top{
   height: 400px;
+
   background-image: url('../images/c1062d4f-bf97-4e81-a354-7a0d90306528.png');
 }
 .title-course-top > h1{
@@ -252,6 +255,7 @@ p{
   padding-top: 120px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 h1{
   font-size: 50px;
@@ -294,6 +298,7 @@ h1{
  margin-right: 30px;
  color: #ffffff;
  font-weight: bold;
+ margin: 10px;
 }
 .course .text label{
  font-size: 20px;
