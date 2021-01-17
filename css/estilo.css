@@ -139,16 +139,19 @@ a:visited{
   
   }
 #home {
-    width: 50%;
-    height: 80%;
+    width: 60%;
+    height: 100%;
     position: absolute;
     padding: 40px;
     padding-top: 50px;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
+    float: left;
+  
 
     
 }
+
 h2{
     text-align: center;
     color: #6640B2;
@@ -165,7 +168,6 @@ h3{
 p{
     line-height: 40px;
     font-size: 25px;
-    text-align: justify;
 
 }
 
@@ -189,6 +191,7 @@ p{
   margin-left: 25px;
   margin-top: 20px;
   border-radius: 20%;
+
 }
 
 .information  .text{
