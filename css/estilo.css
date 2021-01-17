@@ -207,9 +207,22 @@ p{
   font-style: normal;
 }
 
-.text > h1{
+.text > h5{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
+}
+.title-sobre-top{
+  height: 400px;
+  background-image: url('../images/c1062d4f-bf97-4e81-a354-7a0d90306528.png');
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+}
+.title-sobre-top > h1{
+  color: #ffffff;
+  font-size: 100px;
+  padding-top: 120px;
+  padding-bottom: 50px;
 }
 .title-apoie-top{
   height: 400px;
@@ -275,7 +288,7 @@ h1{
   margin-right: 30px;
 }
 
-.course .text{
+.course > .text{
  float: right;
  margin-top: 100px;
  margin-right: 40px;
@@ -331,6 +344,33 @@ h1{
 
 .brind > img{
   width: 70px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  margin-right: 70px;
+}
+.devs{
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.dev{
+  width: 300px;
+  background-color: #992FAD;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px 20px 20px 20px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
+}
+
+.dev > img{
+  width: 150px;
   margin-top: 12px;
   margin-bottom: 20px;
   margin-left: 80px;
@@ -401,4 +441,54 @@ td, th{
 
 tbody tr:nth-child(odd){
   background: #e6e6e6;
+}
+
+.about{
+  background-color: #992FAD;
+  display: inline-block;
+  padding-bottom: 50px;
+}
+.about > img{
+ max-width: 30%;
+ float: left;
+ margin-left: 25px;
+ margin-top: 20px;
+}
+
+.about > .about-text{
+ float: right;
+ margin-top: 60px;
+ margin-right: 100px;
+ color: #ffffff;
+ font-weight: bold;
+}
+.about-text > label{
+ font-size: 22px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-style: normal;
+}
+
+.about-text > h5{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 50px;
+}
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20%);
+  }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10%);
+  }
+}
+.linkedin:hover{
+  animation: bounce 1s;
+}
+.github:hover{
+  animation: bounce 1s;
 }
