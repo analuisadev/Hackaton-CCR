@@ -285,7 +285,7 @@ h1{
   margin-right: 30px;
 }
 
-.course .text{
+.course > .text{
  float: right;
  margin-top: 100px;
  margin-right: 40px;
@@ -455,7 +455,7 @@ tbody tr:nth-child(odd){
 .about > .about-text{
  float: right;
  margin-top: 60px;
- margin-right: 150px;
+ margin-right: 100px;
  color: #ffffff;
  font-weight: bold;
 }
